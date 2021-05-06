@@ -1,0 +1,6 @@
+<div class="alert alert-<?php echo $class; ?> alert-dismissible mb-2" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+  <?php echo $message; ?>
+</div>
